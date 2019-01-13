@@ -26,6 +26,10 @@ h4{ font-size: 1.5em; }
 h5{ font-size: 1.2em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
+footer{
+	background-color: #000000;
+}
+
 a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
 
 a:focus, a:active, a:hover,
@@ -44,8 +48,14 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 
 b.light-color{ color: #444; }
 
+.navbar-brand img{
+    height: 100%;
+}
 .navbar{
-	border-bottom:1px transparent #ffffff !important;
+    border-radius: 0 !important;
+}
+.navbar-brand{
+    padding: 5px !important;
 }
 
 .icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
